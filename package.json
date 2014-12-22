@@ -1,0 +1,18 @@
+{
+  "name": "slush-fiveby",
+  "version": "1.0.0",
+  "description": "Scaffold of an automated testing project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Rahner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dowjones/slush-fiveby.git"
+  },
+  "dependencies": {
+    "fiveby": "^1.0.0",
+    "gulp": "^3.6.2",
+    "gulp-spawn-mocha": "^0.5.0"
+  }
+}
