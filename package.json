@@ -1,6 +1,6 @@
 {
   "name": "slush-fiveby",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scaffold of an automated testing project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
