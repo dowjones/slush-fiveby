@@ -15,6 +15,7 @@ gulp.task('smoke-test', function () {
         .on("error", console.warn.bind(console));
   });
 
+// Example: gulp single -f tests/smoke/google.js
 gulp.task('single', function () {
   return gulp.src(argv.f)
     .pipe(mocha(options))
