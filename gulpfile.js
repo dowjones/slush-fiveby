@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var argv = require('yargs').argv;
 var mocha = require('gulp-spawn-mocha');
-var options = JSON.parse(process.env.mochaopts ? process.env.mochaopts : null) || {reporter: 'mochawesome', timeout: 30000, slow: 15000, 'no-exit': true};
+var options = JSON.parse(process.env.mochaopts ? process.env.mochaopts : null) || {reporter: 'mochawesome', timeout: 30000, slow: 15000, 'delay': true};
 
 gulp.task('test', function () {
     return gulp.src('tests/**/*.js')
