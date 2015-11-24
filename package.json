@@ -1,6 +1,6 @@
 {
   "name": "slush-fiveby",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Scaffold of an automated testing project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "url": "https://github.com/dowjones/slush-fiveby.git"
   },
   "dependencies": {
-    "fiveby": "^2.0.0",
+    "fiveby": "^3.0.0",
     "gulp": "^3.6.2",
     "gulp-spawn-mocha": "^0.5.0",
     "mochawesome": "^1.0.0",
