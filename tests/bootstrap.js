@@ -13,7 +13,7 @@ fiveby(function (browser) {
         var cs = new ControlSizing(browser);
         return promise.map(cs.getInputs(), function (elem) { // use promise helpers map, all, etc..
           elem.getAttribute('class').then(function (value) {
-            value.should.containEql('form-control'); // using advanced should asserts where applicable
+            value.should.contains('form-control'); // using advanced should asserts where applicable
           });
         });
       });
