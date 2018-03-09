@@ -4,8 +4,11 @@ services:
     image: artifactory.dowjones.io:5000/selenium/hub:3.10
     ports:
       - 4444:4444
+    environment:
+      GRID_MAX_SESSION: 2
   node:
     image: artifactory.dowjones.io:5000/selenium/node-chrome:3.10
     environment:
       HUB_HOST: hub
-      SE_OPTS: -browser browserName=chrome
+      NODE_MAX_SESSION: 2
+      SE_OPTS: -browser browserName=chrome,maxInstances=2
