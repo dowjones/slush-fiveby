@@ -1,0 +1,11 @@
+version: "3"
+services:
+  hub:
+    image: artifactory.dowjones.io:5000/selenium/hub:3.10
+    ports:
+      - 4444:4444
+  node:
+    image: artifactory.dowjones.io:5000/selenium/node-chrome:3.10
+    environment:
+      HUB_HOST: hub
+      SE_OPTS: -browser browserName=chrome
