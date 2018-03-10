@@ -10,7 +10,7 @@
     "url": "https://github.com/dowjones/slush-fiveby.git"
   },
   "dependencies": {
-    "fiveby": "4.0.0",
+    "fiveby": "4.0.1",
     "gulp": "3.9.1",
     "gulp-spawn-mocha": "5.0.1",
     "mochawesome": "3.0.2",
